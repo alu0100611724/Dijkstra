@@ -18,7 +18,7 @@ public class Dijkstra {
 	}
 
 	/**
-	 * Dijkstra実行
+	 * 
 	 * @param startNodeID
 	 */
 	public void excute( int startNodeID ){
@@ -52,7 +52,7 @@ public class Dijkstra {
 	}
 
 	/**
-	 * スタートからゴールまでの遷移を抽出する
+	 *
 	 * @param startID
 	 * @param goalID
 	 * @return
@@ -64,7 +64,7 @@ public class Dijkstra {
 		while(true){
 			int to = transition.get(transition.size()-1);
 			int from = getNode(to).getFromID();
-			if( from < 0){	//どこからもたどり着かなかった
+			if( from < 0){	
 				break;
 			}
 
@@ -109,7 +109,7 @@ public class Dijkstra {
 	}
 	
 	/**
-	 * Dijkstraのノードとエッジ情報を通知
+	 * 
 	 */
 	public void showAllNodeAndEdge(){
 		System.out.println("!!!!! dijkstra node and edge !!!!!" );

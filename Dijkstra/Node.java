@@ -4,11 +4,11 @@ import java.util.ArrayList;
 
 public class Node {
 	
-	ArrayList<Edge> edges;			//ノードから接続しているエッジ情報
-	int nodeID;						//ノードの番号
-	int fromID = -1;				//確定した接続先のシンボル
-	boolean done;					//ノードの確定フラグ（探索終了）
-	double doneCost;				//シンボルにくるまでのコスト
+	ArrayList<Edge> edges;			
+	int nodeID;						
+	int fromID = -1;				
+	boolean done;					
+	double doneCost;				
 	
 	public Node( int id ){
 		this.nodeID = id;
@@ -35,7 +35,7 @@ public class Node {
 	}
 	
 	/**
-	 * エッジのコストを上書きする
+	 * 
 	 * @param to
 	 * @param renewCost
 	 */

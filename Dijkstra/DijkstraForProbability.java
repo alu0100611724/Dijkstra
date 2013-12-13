@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 /**
- * 遷移確率の高い経路を算出する
+ *
  * @author cosmocleaner
  *
  */
@@ -47,7 +47,7 @@ public class DijkstraForProbability {
 	}
 	
 	/**
-	 * スタートからゴールまでの遷移を抽出する
+	 * 
 	 * @param startID
 	 * @param goalID
 	 * @return
